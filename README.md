@@ -160,6 +160,8 @@ CRUD-операций.
 2. Установите зависимости:
 
    ```bash
+   python -m venv env
+   source env/Scripts/activate
    pip install -r requirements.txt
    ```
 

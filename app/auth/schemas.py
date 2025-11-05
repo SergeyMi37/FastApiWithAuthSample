@@ -1,5 +1,5 @@
 import re
-from typing import Self
+from typing_extensions import Self
 from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator, model_validator, computed_field
 from app.auth.utils import get_password_hash
 
